@@ -7,7 +7,7 @@ import com.softwaremill.sttp.quick.backend
 import scala.scalanative.native._
 
 object Main {
-  val budget = sys.env.getOrElse("COINKEEPER_BUDGET", "250000").toInt
+  val budget = sys.env("COINKEEPER_BUDGET").toInt
   val cookie = sys.env("COINKEEPER_COOKIE")
   val userId = sys.env("COINKEEPER_USER_ID")
 
