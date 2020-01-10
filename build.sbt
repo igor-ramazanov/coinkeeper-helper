@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
 
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
-nativeGC := "immix"
+nativeGC := "none"
 nativeMode := "release"
 
 enablePlugins(ScalaNativePlugin)
