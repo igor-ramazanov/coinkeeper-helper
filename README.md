@@ -1,7 +1,7 @@
 # Coinkeper Helper
-Improves existing [Coinkeeper](https://coinkeeper.me/) application. Helps being more mindful regarding finances.
+CLI application, improves existing [Coinkeeper](https://coinkeeper.me/) application. Helps being more mindful regarding finances.
 
-CLI application, after run it will connect to the Coinkeeper backend and extract data to calculate the 2 numbers:
+After run it will connect to the Coinkeeper backend and extract data to calculate the 2 numbers:
 
 1. Total amount available for spending today ignoring today's transactions.
 2. Amount of available money for spending right at the moment.
