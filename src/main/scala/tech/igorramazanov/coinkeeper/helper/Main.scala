@@ -1,4 +1,4 @@
-package tech.igorramazanov.coinkeeper.fetcher
+package tech.igorramazanov.coinkeeper.helper
 
 import argonaut.Argonaut._
 import com.softwaremill.sttp._
