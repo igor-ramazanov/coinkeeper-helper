@@ -2,7 +2,7 @@ scalaVersion := "2.11.12"
 
 version := "0.1"
 
-Compile / mainClass := Some("tech.igorramazanov.coinkeeper.fetcher.Main")
+Compile / mainClass := Some("tech.igorramazanov.coinkeeper.helper.Main")
 
 libraryDependencies ++= Seq(
   "com.softwaremill.sttp" %%% "core"     % "1.7.2",
